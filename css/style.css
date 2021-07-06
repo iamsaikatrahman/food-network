@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* #################### Custom Style #################### */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* #################### Custom Style End #################### */
+
+/* ################### Utility Class ######################*/
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+.orange-color {
+  color: orange;
+}
+.gray-color {
+  color: #575757;
+}
+.flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.btn {
+  padding: 15px 35px;
+  background: linear-gradient(90deg, #fb8e49, #fe5632);
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 500;
+  box-shadow: 0 1px 10px 0 #fb8e49;
+}
+.half-width {
+  width: 50%;
+  padding-left: 50px;
+}
+.margin-bottom {
+  margin-bottom: 100px;
+}
+.justify-content {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+/* ############ Utility Class End ##############*/
+/* ########## Navigation ########## */
+.navigation {
+  box-shadow: 0px 5px 10px 0px #aaa;
+  position: fixed;
+  background: #fff;
+  opacity: 0.85;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.navigation-content {
+  height: 60px;
+}
+.navigation-items h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.navigation-items {
+  width: 40%;
+}
+.navigation-items li a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #0a0d16;
+}
+/* ############## Navigation End */
+/* ############ Thumbnail ###############*/
+.thumbnail {
+  padding: 50px 0;
+}
+.thumbnail-content {
+  margin-top: 80px;
+}
+.thumbnail-content .half-width img {
+  display: block;
+  margin-left: auto;
+  width: 70%;
+}
+.thumbnail-content .half-width h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #575757;
+}
+.thumbnail-content .half-width p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  color: #858585;
+}
+
+/*################ Thumbnail End ##############*/
+/* ############# About Us ############## */
+.about-us {
+  background-image: url("../images/backgroundimage1.jpg");
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: cover;
+  padding: 60px 0;
+}
+.about-us-content {
+  padding: 50px 0;
+}
+.about-us-content .half-width img {
+  display: block;
+  margin-right: auto;
+  width: 70%;
+}
+.about-us-content .half-width h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #575757;
+}
+.about-us-content .half-width p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+/* ############ About Us End ################ */
+/* ############ Our Recipies ############## */
+.our-recipies {
+  padding-top: 100px;
+}
+.our-recipies-title {
+  text-align: center;
+}
+.our-recipies-title p {
+  margin: 50px 0;
+}
+.recipies-card {
+  width: 350px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 25px;
+  box-shadow: 5px 8px 20px 0 rgba(128, 128, 128, 0.397);
+}
+.recipies-card img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.recipies-card-text-box {
+  margin: 20px 0;
+}
+.recipies-card-text-box h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.recipies-card-text-box p {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+}
+/* ########### Our Recipies End ############# */
+/* ############# Our Reviews ############## */
+.our-reviews {
+  background: #f3f3f3;
+  padding: 100px 0 50px 0;
+}
+.reviews-title {
+  text-align: center;
+}
+.reviews-title p {
+  margin: 50px 0;
+}
+.reviews-box {
+  text-align: center;
+  margin-bottom: 50px;
+  width: 300px;
+}
+.reviews-box img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: auto;
+}
+.reviews-text-box {
+  margin-top: 20px;
+}
+/* ############# Our Reviews End ############## */
+/* ########### Followers ########### */
+.followers-content {
+  margin-top: 100px;
+  background: #fff;
+  box-shadow: 5px 6px 20px 0 rgba(128, 128, 128, 0.397);
+  padding: 60px 0;
+  border-radius: 30px;
+}
+.follower-box {
+  text-align: center;
+}
+.follower-box h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.follower-box p {
+  font-size: 18px;
+  font-weight: 400;
+}
+/* ########### Followers End ############### */
+/* ########### Contact ############ */
+.contact-us {
+  background: #f3f3f3;
+  padding: 100px 0;
+}
+.contact-bg {
+  width: 50%;
+}
+.contact-bg img {
+  display: block;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+
+  border-radius: 10px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  padding: 20px 50px;
+  margin: auto;
+  height: 400px;
+}
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  border-bottom: 2px solid #ddd;
+  padding: 10px 10px;
+  box-shadow: none;
+  outline: none;
+  margin-bottom: 10px;
+  color: #444;
+  font-weight: 500;
+}
+.contact-form a {
+  text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+}
+/* ########### Contact End ############ */
+/* ######### Footer ############ */
+.footer-content {
+  background: #0a0d16;
+  height: 150px;
+  text-align: center;
+}
+.footer-text-box {
+  padding: 30px 0;
+}
+.footer-text-box h2 {
+  color: #5b5b5b;
+}
+.footer-text-box p {
+  margin-top: 5px;
+  color: #fff;
+}
+.footer-text-box small {
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.685);
+}
+/* ########### Footer End ########### */
